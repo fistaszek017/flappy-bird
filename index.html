@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title> Flappy bird </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="startscreen">
+            <h1> Flappy Bird </h1>
+            <button id="startbutton"> Start </button>
+        </div>
+        <canvas id="game"></canvas>
+        <div id="gameoverscreen">
+            <h2> :( </h2>
+            <p> Twój wynik to: <span id="gamescore"></span></p>
+            <p> Najlepsze wyniki: </p>
+            <ol id="bestscores"> </ol>
+            <button id="restartbutton"> Zagraj ponownie </button>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
